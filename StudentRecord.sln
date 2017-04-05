@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentRecordApp.Domain", "StudentRecordApp.Domain\StudentRecordApp.Domain.csproj", "{654AECC5-081F-420A-B04D-6CE5534B51BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentRecordApp.Data", "StudentRecordApp.Data\StudentRecordApp.Data.csproj", "{EE7C0CF3-A604-4728-96E5-B91E5CC2E1F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{654AECC5-081F-420A-B04D-6CE5534B51BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{654AECC5-081F-420A-B04D-6CE5534B51BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{654AECC5-081F-420A-B04D-6CE5534B51BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{654AECC5-081F-420A-B04D-6CE5534B51BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE7C0CF3-A604-4728-96E5-B91E5CC2E1F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE7C0CF3-A604-4728-96E5-B91E5CC2E1F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE7C0CF3-A604-4728-96E5-B91E5CC2E1F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE7C0CF3-A604-4728-96E5-B91E5CC2E1F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
