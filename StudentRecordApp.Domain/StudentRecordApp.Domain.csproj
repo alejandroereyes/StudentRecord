@@ -44,6 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Address.cs" />
+    <Compile Include="CafeteriaCredit.cs" />
+    <Compile Include="Course.cs" />
+    <Compile Include="Credit.cs" />
     <Compile Include="EntityBase.cs" />
     <Compile Include="PhoneNumber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
