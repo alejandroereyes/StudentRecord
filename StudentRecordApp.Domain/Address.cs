@@ -1,10 +1,7 @@
-﻿using System;
-
-namespace StudentRecordApp.Domain
+﻿namespace StudentRecordApp.Domain
 {
-    public class Address
+    public class Address : EntityBase
     {
-        public int Id { get; set; }
         public int UserId { get; set; }
         public User User { get; set; }
         public string Street { get; set; }
@@ -12,7 +9,5 @@ namespace StudentRecordApp.Domain
         public string City { get; set; }
         public string State { get; set; }
         public int ZipCode { get; set; }
-        public DateTime CreatedAt { get; private set; }
-        public DateTime UpdatedAt { get; private set; }
     }
 }
